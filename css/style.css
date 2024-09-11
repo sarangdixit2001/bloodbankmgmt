@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    
+
+
+}
+#navbar
+{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    background-color:red;
+    font-family: sans-serif;
+    margin-left: -1px;
+    margin-top: 0px;
+    position: fixed;
+}
+
+#navbar li
+{
+    padding: 20px;
+    font-size: 18px;
+    list-style: none;
+    
+    
+}
+
+#navbar li a
+{
+    text-decoration: none;
+    color: white;
+
+}
+#navbar li a:hover
+{
+    color: black;
+}
+.nav1{
+    margin-left: 40px;
+}
+
+#navheartlogo img{
+    height: 81px;
+    margin-top: -1px;
+    margin-left: 16px;
+}
+
+#navigation{
+    height: 70px;
+}
+
+#navimg{
+    height: 70px;
+}
+
+#intro
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15%;
+    /* background: center /cover no-repeat url("./img/car\ background.jpg"); */
+    height: 657px;
+    width: 100%;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 20%;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+
+.text
+{
+    margin: 12px;
+    padding: 12px;
+    font-size: 20px;
+    color: Black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.text1
+{
+    padding: 12px;
+}
+
+.button
+{
+    text-align: center;
+    margin-right: 57%;
+    margin-top: 14px;
+}
+
+#btn
+{
+    padding: 12px;
+    font-size: 18px;
+    background-color :#228dcb;
+    color: white;
+    border-radius: 18px;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+.offers
+{
+    text-align: center;
+    height: 600px;
+    
+}
+.middile
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.nam{
+    text-align: center;
+    margin-left: 60%;
+    font-family: cursive;
+}
+h1
+{
+    margin-right: 860px;
+}
+
+.heading img
+{
+    height: 72px;
+    margin-left: -87%;
+    filter: invert(9);
+}
+.head{
+    color: white;
+    margin-left: -214%;
+    font-size: 20px;
+}
+
+li a
+{
+    text-decoration: none;
+    color: black;
+}
+.items
+{
+    margin-right: 862px;
+    padding: 12px;
+    
+    
+}
+
+li
+{
+    padding: 20px;
+    margin-left: 6px;
+    margin-bottom: -28px;
+    padding: 20px;
+    font-size: 17px;
+}
+
+
+
+
+
+#footer
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    font-family: cursive;
+}
+.foot{
+    font-size: 16px;
+}
+
+.logout {
+    background-color: rgb(250, 186, 9);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 17px;
+    border-radius: 50px;
+}
+#newnavbar
+{
+    background-color: #FE4E2E;
+    
+}
+.loginform
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/*slider*/
+.carousel-control-prev, .carousel-control-next{
+    margin-top:150x;
+}
+#carouselExampleIndicators{
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+#carouselExampleIndicators .carousel-inner{
+	position: relative;
+	height: 85%;
+	width: 100%;
+	
+}
+#carouselExampleIndicators .carousel-inner:before{
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, 0.45);
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item{
+	position: relative;
+	height: 100%;
+	width:100%;
+	background: url('../img/blood-donate-slider.jpg');
+	background-size: height="1350" width="640";
+	background-position: center;
+	background-attachment: scroll;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
+	background: url('../img/slider-1-1.png');
+	background-size: height="640" width="1350";
+	background-position: center;
+	background-attachment: scroll;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('../img/slider3.jpg');
+	background-size: height="1350" width="640";
+	background-position: center;
+	background-attachment: scroll;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item:nth-child(3){
+	background: url('../img/slide4.4.jpg');
+	background-size: height="1350" width="640";
+	background-position: center;
+	background-attachment:scroll;
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item .info{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	height: auto;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item h1{
+	height: auto;
+	color: #ffff;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 4.5em;
+	font-weight: 750;
+}
+#carouselExampleIndicators .carousel-inner .carousel-item p{
+	height: auto;
+	color: yellow;
+	width: 100%;
+	z-index: 1;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 500;
+}
+.heading{
+    color: #EF3D32;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 52px;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.container
+{
+    text-align: left;
+    align-items: left;
+    position: absolute;
+    right: 0px;
+    width: 43%;
+    background-color: gray;
+}
+.para
+{
+    background-color: rgba(128, 128, 128, 0.644);
+    text-align: left;
+    align-items: left;
+    padding-left: 100px;
+    display: block;
+    top: 0;
+    position: relative;
+    /* column-count: 2; */
+    float: left;
+    color: black;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* border: 2px solid #60d904; */
+    padding: 12px;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family:sans-serif
+    
+
+    /* opacity: 0.8; */
+}
+.custom-bullet-list
+{
+    background-color: rgba(128, 128, 128, 0.644);
+    text-align: left;
+    align-items: left;
+    padding-left: 100px;
+    display: block;
+    top: 0;
+    position: relative;
+    /* column-count: 2; */
+    float: left;
+    color: black;
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    /* border: 2px solid #60d904; */
+    padding: 12px;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: 500px;
+    font-family:sans-serif
+    
+
+    /* opacity: 0.8; */
+
+}
+
+img
+{
+    margin-left: 70px;
+    margin-top: 65px;
+    height: 380px;
+}
+
+
+.heading2
+{
+    color: #EF3D32;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: -100px;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+
+body::before{
+    content:"";
+   
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.secondheading
+{
+    color: #EF3D32;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 120px;
+    margin-left: 320px;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.fourthheading
+{
+    margin-left: 515px;
+}
+
+.secondlist
+{
+    margin-left: 675px;
+    margin-top: -336px;
+
+}
+.strngheading
+{
+    margin-left: 685px;
+}
+.thirdlist
+{
+    margin-left: 675px;
+    margin-top: -3px;
+
+}
+
+.donationheading
+{
+    color: #EF3D32;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: 405px;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+.box {
+    display: inline-block;
+    border: 2px black;
+    height: 290px;
+    width: 380px;
+    padding: 12px;
+    margin: 31px;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    border-radius: 15px;
+    color: white;
+
+}
+.img {
+    height: 287px;
+    margin-left: -84px;
+    /* margin-bottom: -16px; */
+    margin-top: -80px;
+}
+
+.img img{
+    height: inherit;
+}
+
+.imgheading1
+{
+    margin-left: 115px;
+}
+
+.imgheading2 {
+    margin-left: 605px;
+    margin-top: -36px;
+}
+
+.imgheading3 {
+    margin-left: 1069px;
+    margin-top: -39px;
+}
+.secondpara {
+    margin-left: 448px;
+    margin-top: -87px;
+    
+}
+
+.thirdpara {
+        margin-left: 925px;
+        margin-top: -86px;
+}
+.bloodrecieveheading
+{
+    
+    color: #EF3D32;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-top: 25px;
+    margin-left: 405px;
+    text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+
+.secondimgheading1
+{
+    margin-left: 115px;
+}
+
+.secondimgheading2
+{
+    margin-left: 605px;
+    margin-top: -36px;
+}
+
+.secondimgheading3
+{
+    margin-left: 1069px;
+    margin-top: -39px;
+}
+
+
+.fifthpara {
+    margin-left: 519px;
+    margin-top: -116px;
+}
+.sixthpara {
+    margin-left: 917px;
+    margin-top: -89px;
+}
+.boldheading
+{
+    background-color: red;
+    text-align: center;
+    /* margin-left: 287px; */
+    margin-top: 100px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.smallimg img
+{
+    height: inherit;
+    margin-left: 130px;
+}
+.wholblood
+{
+    margin-left: 145px;
+    margin-top: -135px;
+    font-weight: bold;
+}
+.cryoprecipitate {
+    text-align: center;
+    margin-left: -50px;
+    margin-top: -40px;
+    font-weight: bold;
+}
+.frozenplasma {
+    text-align: right;
+    margin-right: 198px;
+    margin-top: -38px;
+    font-weight: bold;
+}
+
+.bloodcell
+{
+    margin-left: 102px;
+    margin-top: -135px;
+    font-weight: bold;
+
+}
+.platelet
+{
+    text-align: center;
+    margin-left: -37px;
+    margin-top: -40px;
+    font-weight: bold;
+
+}
+.plateletsdp
+{
+    text-align: right;
+    margin-right: 39px;
+    margin-top: -38px;
+    font-weight: bold;
+}
+
+/* footer */
+
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 512px;
+    color: white;
+    /* background-color: black; */
+    background-image: url('../img/footer-image.jpg');
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.footerheading
+{
+        margin-top: 465px;
+        margin-left: 55px;
+}
+h4.footerheading1
+{
+    margin-left: -219px;
+    margin-top: -153px;
+    font-weight: bold;
+}
+#address{
+    margin-left: -797px;
+    margin-top: -105px;
+    font-size: 17px;
+}
+#mobile{
+    margin-left: -798px;
+    font-size: 17px;
+}
+
+#email{
+    margin-left: -800px;
+    margin-top: 113px;
+    font-size: 17px;
+}
+#link{
+    margin-left: -395px;
+    margin-top: -150px;
+    font-weight: bold;
+}
+
+#links{
+    margin-left: -438px;
+    margin-top: -72px;
+}
+
+li{
+    list-style: none;
+    font-size: 17px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+}
+#location{
+    margin-left: -3px;
+    margin-top: -50px;
+    margin-right: -210px;
+    font-weight: bold;
+}
+
+#map{
+    margin-right: -305px;
+}
+#requestblood a{
+    color: black;
+    margin-left: -9px;
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    
+
+
+}
+#img img{
+    height: 514px;
+    margin-top: -10px;
+
+   
+}
+#navheartlogo img{
+    height: 81px;
+    margin-top: -1px;
+    margin-left: 16px;
+}
+
+#navigation{
+    height: 70px;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 512px;
+    color: white;
+    /* background-color: black; */
+    background-image: url('../../img/footer-image.jpg');
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.footerheading
+{
+        margin-top: 465px;
+        margin-left: 55px;
+}
+h4.footerheading1
+{
+    margin-left: -219px;
+    margin-top: -153px;
+    font-weight: bold;
+}
+#address{
+    margin-left: -797px;
+    margin-top: -105px;
+    font-size: 17px;
+}
+#mobile{
+    margin-left: -798px;
+    font-size: 17px;
+}
+
+#email{
+    margin-left: -800px;
+    margin-top: 113px;
+    font-size: 17px;
+}
+#link{
+    margin-left: -395px;
+    margin-top: -150px;
+    font-weight: bold;
+}
+
+#links{
+    margin-left: -438px;
+    margin-top: -72px;
+}
+
+li{
+    list-style: none;
+    font-size: 17px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+}
+#location{
+    margin-left: -3px;
+    margin-top: -50px;
+    margin-right: -210px;
+    font-weight: bold;
+}
+
+#map{
+    margin-right: -305px;
+}

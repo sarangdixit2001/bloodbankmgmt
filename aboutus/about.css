@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    
+
+
+}
+
+
+
+
+.heading{
+
+color: #EF3D32;
+font-size: 50px;
+font-weight: 700;
+font-family: sans-serif;
+margin-left: 105px;
+ margin-top: 51px;
+text-shadow: 0px 0px 0px rgb(0 0 0 / 30%);
+}
+
+.paragraph
+{
+    font-family: sans-serif;
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    font-stretch: expanded;
+    margin-top: 37px;
+    color: #2d1818d6;
+}
+.img img
+{
+    height: 370px;
+   margin-left: 945px;
+    margin-top: -228px;
+    width: 390px;
+}
+#img img
+{
+    height: 144px;
+    margin-bottom: -30px;
+    margin-left: -17px;
+}
+#navheartlogo img{
+    height: 81px;
+    margin-top: -1px;
+    margin-left: 16px;
+}
+
+#navigation{
+    height: 70px;
+}
+.heading1
+{
+    text-align: center;
+    font-weight: bold;
+    background-color: #EF3D32;
+    height: 120px;
+    color: white;
+    margin-top: -75px;
+
+}
+
+h2
+{
+    margin-top: 10px;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 512px;
+    color: white;
+    background-color: black;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.footerheading
+{
+        margin-top: 465px;
+}
+h4.footerheading1
+{
+    text-align: left;  
+    margin-left: -515px;  
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 512px;
+    color: white;
+    /* background-color: black; */
+    background-image: url('../img/footer-image.jpg');
+    top:0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.footerheading
+{
+        margin-top: 465px;
+        margin-left: 55px;
+}
+h4.footerheading1
+{
+    margin-left: -219px;
+    margin-top: -153px;
+    font-weight: bold;
+}
+#address{
+    margin-left: -797px;
+    margin-top: -105px;
+    font-size: 17px;
+}
+#mobile{
+    margin-left: -798px;
+    font-size: 17px;
+}
+
+#email{
+    margin-left: -800px;
+    margin-top: 113px;
+    font-size: 17px;
+}
+#link{
+    margin-left: -395px;
+    margin-top: -150px;
+    font-weight: bold;
+}
+
+#links{
+    margin-left: -438px;
+    margin-top: -72px;
+}
+
+li{
+    list-style: none;
+    font-size: 17px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+}
+#location{
+    margin-left: -3px;
+    margin-top: -50px;
+    margin-right: -210px;
+    font-weight: bold;
+}
+
+#map{
+    margin-right: -305px;
+}
+body::before{
+    content: "";
+    background:url('../img/aboutimg.jpg') no-repeat center center/cover;
+    height: 102%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.3;
+    
+}
+#bloodtheropy img{
+    height: 431px;
+    margin-top: -2%;
+}
+#bloodtherop img{
+    height: 408px;
+    margin-left: 12px;
+    margin-top: -2%;
+}

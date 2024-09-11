@@ -1,0 +1,156 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+#navheartlogo img{
+    height: 81px;
+    margin-top: -1px;
+    margin-left: 16px;
+}
+
+#navigation{
+    height: 70px;
+}
+.heading
+{
+    margin-left: 35%;
+    color: red;
+}
+#strng{
+    margin-left: 41%;
+    font-size: 23px;
+}
+.contanier{
+  
+    height: 120vh;
+    border: 2px solid black;
+    margin-left: 86px;
+    margin-right: 117px;
+    padding: 33px;
+    box-shadow: 3px 3px #0082ff;
+}
+.btn{
+    transition: 1s;
+}
+
+.btn1{
+    font-size: 18px;
+    font-family: 'Yeon Sung', cursive;
+    padding: 5px;
+    width: 14%;
+    margin: 9px;
+    color: white;
+    cursor: pointer;
+    margin-left: 43%;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+}
+.myinput{
+        font-size: 13px;
+        font-family: 'Yeon Sung', cursive;
+        width: 95%;
+        height: 45px;
+        padding: 10px;
+        margin: 10px;
+        outline: none;
+        border: 2px solid black;
+        font-weight: bold;
+        box-shadow: 2px 2px #100f0f;
+        margin-left: 15px;
+        border-radius: 13px;
+}
+.tlabel{
+    margin-left: 16px;
+}
+.check{
+    margin: 19px;
+}
+.don{
+    width: 42%;
+    border-radius: 5px;
+}
+.img img{
+    height: 81px;
+    margin-top: 142px;
+    margin-left: 243px;
+}
+
+#nav{
+    height: 70px;
+}
+#footer1{
+    display: flex;
+    margin-left: -135%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 249%;
+    height: 512px;
+    color: white;
+    /* background-color: black; */
+    background-image: url('../img/footer-image.jpg');
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.7;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+.footerheading
+{
+        margin-top: 465px;
+        margin-left: 1162px;
+}
+h4.contactinfo
+{
+    
+}
+#address{
+    margin-left: -797px;
+    margin-top: -105px;
+    font-size: 17px;
+}
+#mobile{
+    margin-left: -798px;
+    font-size: 17px;
+}
+
+#email{
+    margin-left: -800px;
+    margin-top: 113px;
+    font-size: 17px;
+}
+#link{
+    margin-left: -395px;
+    margin-top: -150px;
+    font-weight: bold;
+}
+
+#links{
+    margin-left: -438px;
+    margin-top: -72px;
+}
+
+li{
+    list-style: none;
+    font-size: 17px;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+}
+#location{
+    margin-left: -3px;
+    margin-top: -50px;
+    margin-right: -210px;
+    font-weight: bold;
+}
+
+#map{
+    margin-right: -305px;
+}
